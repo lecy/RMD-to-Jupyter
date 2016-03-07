@@ -1,4 +1,4 @@
-# RMD to Jupyter - R Function
+# RMD to Jupyter - R Helper Function
 
 This project provides a convenient R function for translating R Markdown (.rmd) files to Jupyter Notebook (.ipynb) files. 
 
