@@ -4,8 +4,8 @@ This project provides a convenient R function for translating R Markdown (.rmd) 
 
 The major advantage to using notebook instead of markdown files is the ability to post them on GitHub, where the code is automatically compiled and rendered so that the users can view the full output instead of just the formatted code. For example, here is an R Markdown and a Jypyter notebook file for comparison:
 
-- [Example R Markdown](https://github.com/lecy/RMD-to-Jupyter/example.Rmd) 
-- [Example Jupyter Notebook](https://github.com/lecy/RMD-to-Jupyter/example.ipynb)
+- [Example R Markdown](https://github.com/lecy/RMD-to-Jupyter/blob/master/example.Rmd) 
+- [Example Jupyter Notebook](https://github.com/lecy/RMD-to-Jupyter/blob/master/example.ipynb)
 
 Notebooks are also a convenient format for collaboration and [transparent, reproducible research](https://sylvaindeville.net/2015/07/17/writing-academic-papers-in-plain-text-with-markdown-and-jupyter-notebook/).
 
