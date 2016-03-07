@@ -7,12 +7,18 @@ This project provides a convenient R function for translating R Markdown (.rmd) 
 
 ## Windows
 
+Running this program requires that you have R, Python, and Jupyter installed you your machine.
+
 1. First install [R](https://www.r-project.org/)
+
 2. Then write in R console 
+
     ```
     install.packages('knitr', dependencies = TRUE)
     ```
+    
 3. Next we need to install notedown and other depencies 
+
     ```
     pip install notedown 
     pip install pandas 
@@ -20,7 +26,9 @@ This project provides a convenient R function for translating R Markdown (.rmd) 
     pip install ipykernel 
     ipython kernel install 
     ``` 
+    
 4. To install rpy2 try `pip install rpy2` or [download binaries](http://www.lfd.uci.edu/~gohlke/pythonlibs/#rpy2) `pip install filename.whl`
+
 5. Set variable `R_USER` to your profile path (example `C:\Users\Mentos` ) and add in `Path` variable your R path (example `C:\Program Files\R\R-3.2.3\bin`) 
 
 
