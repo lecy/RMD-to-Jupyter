@@ -9,9 +9,7 @@ The major advantage to using notebook instead of markdown files is the ability t
 
 Notebooks are also a convenient format for collaboration and [transparent, reproducible research](https://sylvaindeville.net/2015/07/17/writing-academic-papers-in-plain-text-with-markdown-and-jupyter-notebook/).
 
-A recent R Revolutions blog explains more details:
-
-http://blog.revolutionanalytics.com/2015/09/using-r-with-jupyter-notebooks.html
+A recent [R Revolutions blog](http://blog.revolutionanalytics.com/2015/09/using-r-with-jupyter-notebooks.html) explains more details.
 
 One solution to converting files between RMD and IPYNB has been proposed using the [ipyrmd script](https://github.com/chronitis/ipyrmd).
 
