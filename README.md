@@ -40,9 +40,11 @@ Running this program requires that you have R, Python, and Jupyter installed you
 
    You will add the path for your R bin folder to this setting. For example, change:
 
-   `C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\`
-   to:
-   `C:\R\R-3.2.2\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\`
+   `C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\` 
+   
+   to: 
+   
+   `C:\R\R-3.2.2\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\` 
    
    [View a screenshot](http://www.faqforge.com/wp-content/uploads/2012/01/path.png)
    
