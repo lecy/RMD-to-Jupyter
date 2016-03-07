@@ -2,20 +2,20 @@
 
 This project provides a convenient R function for translating R Markdown (.rmd) files to Jupyter Notebook (.ipynb) files. 
 
-The major advantage to using notebook instead of markdown files is the ability to post them on GitHub, where the HTML version is automatically rendered so that the users can view the full output instead of just the code. For example, here is an R Markdown and a Jypyter notebook file for comparison:
+The major advantage to using notebook instead of markdown files is the ability to post them on GitHub, where the code is automatically compiled and rendered so that the users can view the full output instead of just the formatted code. For example, here is an R Markdown and a Jypyter notebook file for comparison:
 
 [Example R Markdown](https://github.com/lecy/RMD-to-Jupyter/example.Rmd)
 [Example Jupyter Notebook](https://github.com/lecy/RMD-to-Jupyter/example.ipynb)
+
+Notebooks are also a convenient format for collaboration and [transparent, reproducible research](https://sylvaindeville.net/2015/07/17/writing-academic-papers-in-plain-text-with-markdown-and-jupyter-notebook/).
 
 A recent R Revolutions blog explains more details:
 
 http://blog.revolutionanalytics.com/2015/09/using-r-with-jupyter-notebooks.html
 
-Another solution has been proposed using the [ipyrmd script](https://github.com/chronitis/ipyrmd).
+One solution to converting files between RMD and IPYNB has been proposed using the [ipyrmd script](https://github.com/chronitis/ipyrmd).
 
-The example code was provided by [Ramnath Vaidyanathan](https://bl.ocks.org/ramnathv/9334834)
-
-
+Below we present a simple helper function for R to call the Jupyter program and notedown from within the R environment in order to make the conversion easier for R programmers.
 
 # Setup
 
@@ -167,6 +167,8 @@ rmd2jupyter( "example.Rmd" )
 ## Suggestions
 
 Jupyter notebooks provide an interesting way to share interactive R code and output. If you have suggestions for good resources, methods, or scripts to make this process easier please send them (or submit a pull request) and I will add them to this page.
+
+The example code was provided by [Ramnath Vaidyanathan](https://bl.ocks.org/ramnathv/9334834)
 
 Thanks to Mikhail Mityaev for an initial version of the R script.
 
