@@ -146,7 +146,7 @@ The following R script is a helper function so this can be implemented from with
 ```
 library(tools)
 
-rmd2jupiter <- function( filename, path=getwd() ) 
+rmd2jupyter <- function( filename, path=getwd() ) 
 {
   path_in <- paste( path, "/", filename, " ", sep="" )
   path_out <- paste(path, "/", file_path_sans_ext(filename), ".ipynb", sep="")
@@ -157,7 +157,7 @@ rmd2jupiter <- function( filename, path=getwd() )
 # download the example.Rmd file from this repository
 # setwd(...) to where the example.Rmd file is located
 
-rmd2jupiter( "example.Rmd" )
+rmd2jupyter( "example.Rmd" )
 
 ```
 
